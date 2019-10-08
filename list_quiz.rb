@@ -32,3 +32,16 @@ end
 # print bigger_two([4,5],[7,9])
 # print bigger_two([2,2],[3,3])
 
+def series_up(n)
+    list = []
+    (n+1).times do |a|
+        a.times do |b|
+            list.push(b+1)
+        end   
+    end
+    return list
+end
+
+# print series_up(2)
+# print series_up(4)
+# print series_up(8)
